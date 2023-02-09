@@ -9,3 +9,4 @@ class AdvancedApplication
 fun main(args: Array<String>) {
 	runApplication<AdvancedApplication>(*args)
 }
+
