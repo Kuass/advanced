@@ -35,8 +35,10 @@ class ThreadLocalLogTrace : LogTrace {
         complete(status, null)
     }
 
-    override fun exception(status: TraceStatus, e: Exception) {
-        complete(status, e)
+    override fun exception(status: TraceStatus?, e: Exception) {
+        if (status != null) {
+            complete(status, e)
+        }
     }
 
     private fun complete(status: TraceStatus, e: java.lang.Exception?) {
