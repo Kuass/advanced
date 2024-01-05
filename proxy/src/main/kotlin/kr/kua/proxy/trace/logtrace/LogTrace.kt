@@ -1,6 +1,6 @@
-package kr.kua.demo_first.trace.logtrace
+package kr.kua.proxy.trace.logtrace
 
-import kr.kua.demo_first.trace.TraceStatus
+import kr.kua.proxy.trace.TraceStatus
 
 interface LogTrace {
 

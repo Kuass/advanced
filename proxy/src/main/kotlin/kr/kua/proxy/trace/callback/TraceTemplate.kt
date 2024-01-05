@@ -1,7 +1,7 @@
-package kr.kua.demo_first.trace.callback
+package kr.kua.proxy.trace.callback
 
-import kr.kua.demo_first.trace.TraceStatus
-import kr.kua.demo_first.trace.logtrace.LogTrace
+import kr.kua.proxy.trace.TraceStatus
+import kr.kua.proxy.trace.logtrace.LogTrace
 
 
 class TraceTemplate(private val trace: LogTrace) {

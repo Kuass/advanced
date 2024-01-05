@@ -1,8 +1,7 @@
-package kr.kua.demo_first.trace.logtrace
+package kr.kua.proxy.trace.logtrace
 
-import kr.kua.demo_first.trace.TraceId
-import kr.kua.demo_first.trace.TraceStatus
-import kr.kua.demo_first.trace.logtrace.LogTrace
+import kr.kua.proxy.trace.TraceId
+import kr.kua.proxy.trace.TraceStatus
 import lombok.extern.slf4j.Slf4j
 
 @Slf4j

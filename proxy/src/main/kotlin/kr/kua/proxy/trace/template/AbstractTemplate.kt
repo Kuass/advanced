@@ -1,16 +1,10 @@
-package kr.kua.demo_first.trace.template
+package kr.kua.proxy.trace.template
 
-import kr.kua.demo_first.trace.TraceStatus
-import kr.kua.demo_first.trace.logtrace.LogTrace
+import kr.kua.proxy.trace.TraceStatus
+import kr.kua.proxy.trace.logtrace.LogTrace
 
 
-abstract class AbstractTemplate<T>(trace: LogTrace) {
-
-    private var trace: LogTrace
-
-    init {
-        this.trace = trace
-    }
+abstract class AbstractTemplate<T>(private var trace: LogTrace) {
 
     fun execute(message: String): T {
         var status: TraceStatus? = null

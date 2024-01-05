@@ -1,7 +1,7 @@
-package kr.kua.demo_first.trace.hellotrace
+package kr.kua.proxy.trace.hellotrace
 
-import kr.kua.demo_first.trace.TraceId
-import kr.kua.demo_first.trace.TraceStatus
+import kr.kua.proxy.trace.TraceId
+import kr.kua.proxy.trace.TraceStatus
 import lombok.extern.slf4j.Slf4j
 import org.springframework.stereotype.Component
 
